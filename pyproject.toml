@@ -1,0 +1,13 @@
+[project]
+name = "envivo-fase4"
+version = "0.1.0"
+description = "EnVivo · fase 4 · recomendación y grafo"
+requires-python = ">=3.12"
+dependencies = [
+    "neo4j>=5.26",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.3",
+]
